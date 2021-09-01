@@ -23,10 +23,6 @@
         font-family: monospace;
     }
 
-    #cat-photo-form {
-        background-color: green;
-    }
-
     .silver-background {
         background-color: silver;
     }
@@ -40,6 +36,10 @@
 
     .smaller-image {
         width: 100px;
+    }
+
+    [type='checkbox'] {
+        margin: 10px 0px 15px 0px;
     }
 </style>
 
@@ -65,7 +65,7 @@
                 <li>other cats</li>
             </ol>
         </div>
-        <form id="cat-photo-form" action="https://www.freecatphotoapp.com/submit-cat-photo">
+        <form action="https://www.freecatphotoapp.com/submit-cat-photo">
             <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked>
                 Indoor</label>
             <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">
